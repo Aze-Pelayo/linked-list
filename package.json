@@ -1,0 +1,21 @@
+{
+  "name": "linked-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "linked-list.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^29.0.3",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^29.0.3"
+  }
+}
